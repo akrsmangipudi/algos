@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(linkedlists C CXX)
+add_definitions(-g -DDEBUG)
+add_executable(stack stackDriver.cc)
+add_executable(balanceExprs balanceExprs.cc)
+add_executable(infixconv infixconv.cc)
+add_executable(minElem minElem.cc minElemdrive.cc)
